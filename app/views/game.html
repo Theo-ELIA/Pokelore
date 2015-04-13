@@ -1,0 +1,13 @@
+<div ng-Show="!isLoading">
+	<blockquote ng-bind="lore"></blockquote>
+		<div id="pokemonDisplay">
+			<ul>
+				<li ng-repeat ="pokemon in arrayPokemon"><button ng-click="verifyAnswer(pokemon.id)"><img src="{{pokemon.sprite}}" /><br />{{pokemon.name}}</button></li>
+			</ul>
+		<p id="score">Score : {{score}}</p>
+		<p id="bestScore">Best score : {{bestScore}}</p>
+	</div>
+</div>
+<p ng-Show="isLoading" id="gameLoading">
+	<img src="images/ajax-loader.gif">
+</p>
