@@ -1,3 +1,3 @@
-Pokélore
+PokÃ©lore
 
-A little game powered bu Angular.js and PokéApi.
+A little game powered by Angular.js and PokÃ©Api.
